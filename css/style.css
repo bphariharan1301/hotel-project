@@ -22,6 +22,13 @@ h1,h2,h3{
 p{
     margin: 10px 0;
 }
+.clr{
+    clear: both;
+}
+.l-heading{
+    font-size: 40px;
+}
+/* Utility classes */
 .container{
     margin: auto;
     max-width: 1100px;
@@ -48,12 +55,23 @@ p{
     background: #f7c08a;
     color: #333;
 }
+/* Padding */
+.py-1{
+    padding: 10px 0;
+}
+.py-2{
+    padding: 10px 0;
+}
+.py-3{
+    padding: 10px 0;
+}
 /* Navbar */
 #navbar{
     background: #333;
     color: #fff;
     overflow: auto;
 }
+
 #navbar a{
     color: #fff;
 }
@@ -99,4 +117,38 @@ p{
 #showcase .showcase-content p{
     padding-bottom: 20px;
     line-height: 1.7em;
+}
+/* About */
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+  }
+  
+  #about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+  }
+  
+  #about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+  }
+
+/* Footer */
+footer{
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+footer p{
+    text-align: center;
+}
+
+#testimonials{
+    background: #f7c08a;
 }
